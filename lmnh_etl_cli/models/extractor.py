@@ -16,7 +16,7 @@ class Extractor():
         '''Initialise the extractor, in particular, the consumer pulling data.'''
         self.__consumer = consumer
 
-    def pull_message(self) -> str | None:
+    def pull_message(self) -> str:
         '''Pull messages from the kafka topic, convert to a string and return'''
         message = self.__consumer.poll(POLL_TIMEOUT_DURATION)
         # Check there is a message to extract

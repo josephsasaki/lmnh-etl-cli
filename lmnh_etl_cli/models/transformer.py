@@ -43,7 +43,7 @@ class Transformer():
         curs.close()
         return exhibitions_map, ratings_map, requests_map
 
-    def __init__(self, rds_conn: connection, logger: Logger | None):
+    def __init__(self, rds_conn: connection, logger: Logger):
         '''Instantiate the transformer, using the connection to get the exhibition, 
         request and ratings data.'''
         self.__logger = logger
@@ -127,7 +127,7 @@ class Transformer():
         # Create and return kiosk event
         return KioskEvent(event_datetime, exhibition_id, is_rating, rating_or_request_id)
 
-    def create_kiosk_event(self, message_value: str) -> KioskEvent | None:
+    def create_kiosk_event(self, message_value: str) -> KioskEvent:
         '''Given the value from a message, check the value is valid, clean it and then
         produce a kiosk event containing all the appropriate information.'''
 
