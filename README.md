@@ -28,9 +28,9 @@ Before running the script, ensure you have the following:
 
 2. **Create a Virtual Environment** (Optional but recommended):
    ```sh
-   python3 -m venv venv
-   source venv/bin/activate  # macOS/Linux
-   venv\Scripts\activate     # Windows
+   python3 -m venv .venv
+   source .venv/bin/activate  # macOS/Linux
+   .venv\Scripts\activate     # Windows
    ```
 
 3. **Install Dependencies**:
@@ -61,32 +61,36 @@ DATABASE_PORT=<your-aws-rds-db-port>
 ## **Usage**
 Run the CLI tool with:
 ```sh
-python etl_cli.py
+python run.py
 ```
 Options and arguments:
 ```sh
-python etl_cli.py -l # log invalid messages to file
+python run.py -l # log invalid messages to file
 ```
 
 ## **Project Structure**
 ```
 lmnh-etl-cli/
-├── README.md               # Current file
-├── etl_cli.py              # Main CLI script
-├── invalid_messages.log    # Log where invalid messages are appended
-├── requirements.txt        # Python dependencies
-├── models
+├── README.md                     # Current file
+├── clear_db                      # Bash script for clearing the database interaction data
+├── invalid_messages.log          # Log where invalid messages are appended
+├── lmnh_etl_cli
 │   ├── __init__.py
-│   ├── extractor.py        
-│   ├── kiosk_event.py      
-│   ├── loader.py
-│   ├── pipeline.py
-│   └── transformer.py
-└── tests
-    ├── __init__.py
-    ├── test_extractor.py
-    ├── test_kiosk_event.py
-    └── test_transformer.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── extractor.py
+│   │   ├── kiosk_event.py
+│   │   ├── loader.py
+│   │   ├── pipeline.py
+│   │   └── transformer.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_extractor.py
+│       ├── test_kiosk_event.py
+│       └── test_transformer.py
+├── .env                          # Created by user
+├── requirements.txt              # Python dependencies
+└── run.py                        # Main CLI script
 ```
 
 ## **Logging & Error Handling**
@@ -95,7 +99,7 @@ lmnh-etl-cli/
 ## **Testing**
 Run unit tests:
 ```sh
-pytest tests/
+pytest lmnh_etl_cli/tests
 ```
 
 ## **Clearing the database tables**
@@ -103,5 +107,10 @@ pytest tests/
 The `clear_db` script is designed to remove all rating and request interaction data from the PostgreSQL database while preserving the structure and other essential data, such as exhibition details. 
 
 This script follows the same configuration as above.
+
+Run:
+```sh
+bash clear_db
+```
 
 ---

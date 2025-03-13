@@ -5,7 +5,7 @@ from datetime import datetime
 import json
 from psycopg2.extensions import connection
 
-from models.kiosk_event import KioskEvent
+from lmnh_etl_cli.models.kiosk_event import KioskEvent
 
 
 EXHIBITION_QUERY = 'SELECT public_id, exhibition_id FROM exhibition;'

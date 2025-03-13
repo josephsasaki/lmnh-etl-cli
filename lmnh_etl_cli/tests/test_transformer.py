@@ -5,8 +5,8 @@ import pytest
 import logging
 import json
 
-from models.transformer import Transformer
-from models.kiosk_event import KioskEvent
+from lmnh_etl_cli.models.transformer import Transformer
+from lmnh_etl_cli.models.kiosk_event import KioskEvent
 
 
 VALID_MESSAGE_VALUE = '{"at": "2025-03-10T15:45:54.600066+00:00","site": "1", "val": -1, "type": 0}'

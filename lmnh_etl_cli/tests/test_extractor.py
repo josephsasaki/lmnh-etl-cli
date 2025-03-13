@@ -3,7 +3,7 @@
 import pytest
 from unittest.mock import Mock, patch
 
-from models.extractor import Extractor
+from lmnh_etl_cli.models.extractor import Extractor
 
 MESSAGE_VALUE = '{"at": "2025-03-10T15:45:54.600066+00:00","site": "4", "val": -1, "type": 0}'
 

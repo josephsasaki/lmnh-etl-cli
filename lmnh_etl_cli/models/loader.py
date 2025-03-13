@@ -2,7 +2,7 @@
 
 from psycopg2.extensions import connection
 
-from models.kiosk_event import KioskEvent
+from lmnh_etl_cli.models.kiosk_event import KioskEvent
 
 
 RATING_INSERT = '''

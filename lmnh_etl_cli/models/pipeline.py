@@ -10,13 +10,17 @@ from psycopg2.extensions import connection
 from dotenv import load_dotenv
 from confluent_kafka import Consumer
 
-from models.extractor import Extractor
-from models.transformer import Transformer
-from models.loader import Loader
+from lmnh_etl_cli.models.extractor import Extractor
+from lmnh_etl_cli.models.transformer import Transformer
+from lmnh_etl_cli.models.loader import Loader
 
-# Other
+
 LOG_FILE_NAME = "invalid_messages.log"
-ENV_FILE_PATH = '../.env'
+ENV_FILE_PATH = './.env'
+INITIALISE_MESSAGE = "PIPELINE SUCCESSFUL INITIALISED"
+ERROR_MESSAGE = "PIPELINE INITIALISATION ERROR: %s"
+BEGIN_RUN_MESSAGE = "RUNNING..."
+FINISH_RUN_MESSAGE = "\nPIPELINE CLOSED"
 
 
 class Pipeline():
@@ -34,7 +38,8 @@ class Pipeline():
             'sasl.username': environ['USERNAME'],
             'sasl.password': environ['PASSWORD'],
             'group.id': environ['GROUP_ID'],
-            'auto.offset.reset': environ['AUTO_OFFSET_RESET']
+            'auto.offset.reset': environ['AUTO_OFFSET_RESET'],
+            "log_level": 4
         }
         consumer = Consumer(kafka_config)
         consumer.subscribe([environ['TOPIC']])
@@ -64,16 +69,34 @@ class Pipeline():
     def __init__(self, args: Namespace) -> 'Pipeline':
         '''Initialise the pipeline with settings passed from the command line as arguments.'''
         load_dotenv(ENV_FILE_PATH)
-        self.__consumer = Pipeline._create_consumer()
-        self.__rds_conn = Pipeline._get_database_connection()
-        logger = Pipeline._create_custom_logger() if args.l else None
-        # ETL objects
-        self.__extractor = Extractor(self.__consumer)
-        self.__transformer = Transformer(self.__rds_conn, logger)
-        self.__loader = Loader(self.__rds_conn)
+        self.__consumer = None
+        self.__rds_conn = None
+        try:
+            self.__consumer = Pipeline._create_consumer()
+            self.__rds_conn = Pipeline._get_database_connection()
+            logger = Pipeline._create_custom_logger() if args.l else None
+            # ETL objects
+            self.__extractor = Extractor(self.__consumer)
+            self.__transformer = Transformer(self.__rds_conn, logger)
+            self.__loader = Loader(self.__rds_conn)
+            print(INITIALISE_MESSAGE)
+        except Exception as e:
+            print(ERROR_MESSAGE.format(e))
+            self._cleanup()
+            raise  # Re-raise the exception after cleanup
+
+    def _cleanup(self):
+        '''Ensure proper cleanup of open connections.'''
+        if self.__consumer:
+            self.__consumer.close()
+            self.__consumer = None
+        if self.__rds_conn:
+            self.__rds_conn.close()
+            self.__rds_conn = None
 
     def run(self) -> None:
         '''Run the pipeline.'''
+        print(BEGIN_RUN_MESSAGE)
         try:
             while True:
                 # Extraction
@@ -89,5 +112,5 @@ class Pipeline():
         except KeyboardInterrupt:
             pass
         finally:
-            self.__consumer.close()
-            self.__rds_conn.close()
+            print(FINISH_RUN_MESSAGE)
+            self._cleanup()

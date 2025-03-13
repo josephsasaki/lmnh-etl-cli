@@ -2314,3 +2314,1008 @@ Issue: Kiosk event missing "site" attribute.
 Invalid pulled message:
 	{"at": "2025-03-11T17:45:38.134950+00:00", "site": "7", "val": 4}
 Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-11T17:45:55.136939+00:00", "site": "4", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:46:55.144068+00:00", "site": "3", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:47:50.149647+00:00", "site": "3", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:48:01.151117+00:00", "site": "1", "val": 9}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:48:07.151755+00:00", "site": "1", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:48:11.152871+00:00", "site": "1", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:48:19.153818+00:00", "site": "0", "val": "ERR"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:48:24.154768+00:00", "site": "0", "val": "ERR"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:48:48.157176+00:00", "site": "0", "val": -1, "type": 4}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:48:50.157828+00:00", "site": "None", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-11T17:49:24.161138+00:00", "site": "0"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:49:34.162278+00:00", "site": "5"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"site": "1", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:49:58.164501+00:00", "site": "11", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-11T17:50:07.165250+00:00", "site": "12", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-11T17:50:34.167924+00:00", "val": 2}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:51:11.170775+00:00", "site": "1", "val": 5}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:51:28.172314+00:00", "site": "4", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:51:52.174635+00:00", "site": "7", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-11T17:51:53.175133+00:00", "site": "ERR", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-11T17:53:05.184795+00:00", "site": "12", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"site": "5", "val": 4}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"site": "2", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:54:28.193085+00:00", "site": "3", "val": 7}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:54:36.193767+00:00", "site": "12", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-11T17:55:26.199153+00:00", "site": "5"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:55:29.199530+00:00", "site": "4", "val": -1, "type": -1}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"site": "4", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:56:04.203435+00:00", "site": "0"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"site": "3", "val": -1, "type": 0}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:56:13.204100+00:00", "site": "5", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:56:29.205973+00:00", "site": "5", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:57:15.210463+00:00", "site": "3", "val": "ERR"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:57:16.210797+00:00", "site": "3", "type": 0}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:57:19.211135+00:00", "site": "ERR", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"site": "4", "val": 1}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T17:58:44.219657+00:00", "site": "4", "val": null, "type": 0}
+Issue: Kiosk event contains unexpected attributes.
+Invalid pulled message:
+	{"at": "2025-03-11T17:59:00.220874+00:00", "site": "2", "val": null}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:59:41.224407+00:00", "site": "5", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-11T17:59:49.225531+00:00", "site": "1", "val": 6}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-11T18:00:00.227023+00:00", "site": "11", "val": -1, "type": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-11T18:21:50.227903+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T18:33:22.228224+00:00", "site": "2", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T18:46:02.228551+00:00", "site": "0", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T18:56:51.228956+00:00", "site": "8", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T19:08:48.229304+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T19:19:38.229627+00:00", "site": "1", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T19:31:17.230054+00:00", "site": "2", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T19:42:21.230680+00:00", "site": "2", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T19:55:03.231359+00:00", "val": 3}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T20:06:46.231712+00:00", "site": "3", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T20:17:27.232041+00:00", "site": "0", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T20:29:48.232343+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T20:41:25.232651+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T20:53:40.232961+00:00", "site": "4", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T21:04:42.233408+00:00", "site": "4", "val": 4}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T21:16:03.234142+00:00", "site": "5", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T21:26:39.234919+00:00", "site": "2", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T21:39:11.235231+00:00", "site": "3", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T21:51:16.235539+00:00", "site": "5", "val": 4}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T22:02:21.235870+00:00", "site": "1", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T22:13:45.236189+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T22:26:05.236511+00:00", "site": "3", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T22:38:45.236822+00:00", "site": "5", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T22:50:59.237139+00:00", "site": "2", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T23:02:27.237517+00:00", "site": "4", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T23:13:28.237848+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T23:25:51.238152+00:00", "site": "2", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-11T23:38:04.238531+00:00", "site": "5"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-11T23:49:39.238911+00:00", "site": "5", "val": 4}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T00:01:36.239230+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T00:13:18.239629+00:00", "site": "2", "val": 5}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T00:24:05.239951+00:00", "val": 1}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T00:36:46.240266+00:00", "val": -1, "type": 0}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T00:49:09.240569+00:00", "site": "1", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T01:01:32.240867+00:00", "site": "3", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T01:12:37.241178+00:00", "site": "1", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T01:25:04.241542+00:00", "site": "1", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T01:36:42.241829+00:00", "site": "1", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T01:47:44.242158+00:00", "site": "3", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T01:59:17.242480+00:00", "site": "0", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T02:11:26.242798+00:00", "site": "1", "val": -1, "type": "INF"}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T02:22:32.243089+00:00", "site": "1", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T02:35:05.243481+00:00", "site": "2", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T02:45:45.243798+00:00", "site": "5", "val": 4}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T02:58:28.244112+00:00", "site": "1", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T03:09:41.244441+00:00", "site": "1", "val": -1, "type": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T03:22:11.244752+00:00", "site": "5", "val": 4}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T03:34:26.245243+00:00", "site": "0", "val": -1, "type": "ERR"}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T03:46:42.245568+00:00", "site": "3", "val": 4}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T03:58:20.246010+00:00", "site": "5", "val": -1, "type": "ERR"}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T04:10:54.246421+00:00", "site": "4", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T04:23:28.246748+00:00", "site": "0", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T04:34:14.247072+00:00", "site": "3", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T04:46:13.247419+00:00", "site": "1", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T04:58:18.247755+00:00", "site": "4", "val": 9}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T05:10:56.248049+00:00", "site": "1", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T05:22:22.248369+00:00", "site": "3", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T05:33:41.249354+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T05:44:40.249949+00:00", "site": "5", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T05:56:01.250282+00:00", "site": "4"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T06:08:06.250624+00:00", "site": "0", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T06:19:48.250974+00:00", "site": "2", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T06:31:24.251293+00:00", "site": "5", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T06:43:24.251636+00:00", "site": "0", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T06:55:38.251950+00:00", "site": "5", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T07:07:43.252270+00:00", "site": "5", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T07:19:42.252598+00:00", "site": "5", "val": 3}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T07:30:17.252978+00:00", "site": "3", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T07:42:02.253321+00:00", "site": "4", "val": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T07:52:45.253759+00:00", "site": "0", "val": 1}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T08:05:03.254175+00:00", "site": "8", "val": 4}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T08:16:21.254549+00:00", "site": "5", "val": 4}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T08:28:36.254870+00:00", "site": "1", "val": 2}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T08:40:24.255220+00:00", "site": "4", "val": -1, "type": 0}
+Issue: Kiosk event occurred at invalid time.
+Invalid pulled message:
+	{"at": "2025-03-12T09:05:57.259492+00:00", "site": "8", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"site": "3", "val": 3}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:06:24.261445+00:00", "site": "7", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:06:35.262280+00:00", "site": "None", "val": 3}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"site": "4", "val": 1}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:06:46.264328+00:00", "site": "4", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:07:42.270018+00:00", "site": "1", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:07:53.271097+00:00", "val": 2}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:08:05.272131+00:00", "site": "7", "val": 3}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:08:19.273200+00:00", "site": "0", "val": -3}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:08:25.274681+00:00", "site": "0", "val": 6, "type": 0}
+Issue: Kiosk event contains unexpected attributes.
+Invalid pulled message:
+	{"at": "2025-03-12T09:08:47.277127+00:00", "val": 2}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:10:19.287926+00:00", "site": "ERR", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"site": "1", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:10:48.291311+00:00", "site": "4", "val": 7}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:11:15.293197+00:00", "site": "4", "val": -1, "type": 4}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:11:35.294521+00:00", "site": "1", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:11:54.298014+00:00", "site": "7", "val": 3}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:11:58.298378+00:00", "site": "5", "val": -1, "type": "INF"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"site": "5", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:12:35.304445+00:00", "site": "7", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:13:03.306817+00:00", "val": 2}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:14:09.313404+00:00", "site": "10", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:14:22.314905+00:00", "site": "2", "val": 8}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:15:42.325091+00:00", "site": "ERR", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:15:49.325727+00:00", "site": "5", "val": 5}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:16:00.326409+00:00", "site": "4", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:16:39.330340+00:00", "site": "1", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:16:47.331307+00:00", "val": 1}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:17:08.333138+00:00", "site": "INF", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:17:39.337140+00:00", "site": "0", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:17:46.337804+00:00", "site": "4", "val": "ERR"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:18:34.344546+00:00", "site": "3", "val": -3}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:18:50.345657+00:00", "site": "0", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:19:08.347839+00:00", "site": "3", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:19:25.349861+00:00", "site": "4", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:19:39.352209+00:00", "site": "8", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:19:49.353262+00:00", "site": "INF", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:19:54.353921+00:00", "site": "1", "val": 5}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"site": "4", "val": 3}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:20:01.354584+00:00", "site": "8", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:20:05.355132+00:00", "site": "ERR", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:20:13.355974+00:00", "site": "5", "val": 6}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:20:44.359475+00:00", "site": "12", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"site": "4", "val": -1, "type": 0}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:21:30.364369+00:00", "site": "1", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:21:55.366695+00:00", "site": "ERR", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:21:58.367038+00:00", "site": "12", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:22:54.372628+00:00", "site": "1", "val": -3}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:23:07.374350+00:00", "site": "5", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:23:27.377078+00:00", "site": "None", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:23:29.377488+00:00", "site": "6", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:23:47.379964+00:00", "site": "5", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:24:02.381292+00:00", "site": "1", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:24:13.382943+00:00", "site": "4"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:24:18.383293+00:00", "site": "8", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:24:31.384528+00:00", "site": "3"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:24:52.387771+00:00", "site": "2", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:25:08.391984+00:00", "site": "3", "val": 9}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:25:13.392771+00:00", "site": "2", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:25:16.393386+00:00", "site": "11", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:25:38.395848+00:00", "site": "5", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:26:19.400495+00:00", "site": "ERR", "val": 3}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:26:41.401873+00:00", "site": "3"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:27:23.406256+00:00", "site": "5", "val": 5}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:27:55.409945+00:00", "site": "3"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"site": "4", "val": 4}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:29:14.417493+00:00", "site": "10", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:29:26.418558+00:00", "site": "5"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:29:41.419950+00:00", "site": "4", "val": 9}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:30:02.422494+00:00", "site": "4", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:30:04.422840+00:00", "site": "5", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:30:20.424217+00:00", "site": "ERR", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:30:27.425083+00:00", "site": "2", "val": 7}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:31:13.431026+00:00", "site": "4"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:31:32.432554+00:00", "site": "1", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:31:34.432904+00:00", "site": "2"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"site": "0", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:33:58.447739+00:00", "site": "5", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:34:19.452499+00:00", "site": "4", "val": null}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:34:29.453907+00:00", "site": "None", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:34:39.454986+00:00", "site": "9", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:34:46.455735+00:00", "site": "0", "val": 5}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:34:59.457035+00:00", "site": "10", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:35:21.458727+00:00", "site": "0"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:35:31.459715+00:00", "site": "3", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"site": "4", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:36:08.463855+00:00", "val": 3}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:36:12.464179+00:00", "site": "None", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:36:52.467972+00:00", "site": "4", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:37:14.470128+00:00", "site": "1", "val": 7}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:37:33.471976+00:00", "site": "10", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:38:04.474659+00:00", "site": "5", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:38:14.475559+00:00", "val": 1}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:38:37.477461+00:00", "site": "5"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:38:41.477829+00:00", "site": "1", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:38:46.478134+00:00", "site": "12", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:39:10.481018+00:00", "site": "2", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"site": "2", "val": 1}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:39:43.484933+00:00", "site": "10", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:39:54.486418+00:00", "site": "2", "val": -3}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:40:08.488438+00:00", "site": "1", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:40:13.489509+00:00", "site": "5", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:40:18.490299+00:00", "site": "INF", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:40:23.490944+00:00", "site": "9", "val": 3}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:40:32.492244+00:00", "site": "3", "val": 8}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:41:07.500298+00:00", "site": "2", "val": 9}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:42:19.508908+00:00", "site": "9", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:42:44.511942+00:00", "site": "INF", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:43:14.514511+00:00", "site": "4", "val": -3}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:44:02.519154+00:00", "site": "4", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:44:34.522187+00:00", "site": "5", "val": 9}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:44:48.523311+00:00", "val": 3}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:45:00.524431+00:00", "site": "12", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:45:06.525541+00:00", "val": 2}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:45:09.525878+00:00", "site": "1", "val": -1, "type": -1}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"site": "1", "val": 3}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:46:16.534040+00:00", "site": "11", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:47:08.541344+00:00", "site": "3", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:47:32.545132+00:00", "site": "None", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:47:59.548903+00:00", "site": "4", "val": -1, "type": -1}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:48:29.552823+00:00", "site": "1", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:49:00.556747+00:00", "site": "6", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:49:35.560583+00:00", "val": 3}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:49:36.560970+00:00", "site": "9", "val": 3}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:49:49.564797+00:00", "site": "4", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:50:10.566575+00:00", "site": "1", "val": 6}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:50:18.567764+00:00", "site": "4", "val": -1, "type": "INF"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:50:28.568620+00:00", "val": 1}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:50:40.569551+00:00", "val": 2}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"site": "4", "val": 1}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:51:33.576189+00:00", "site": "3", "val": -1, "type": "INF"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:52:13.580366+00:00", "site": "1", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:52:27.581894+00:00", "site": "9", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:52:51.586661+00:00", "site": "5", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:53:36.590998+00:00", "site": "4", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:53:40.591352+00:00", "site": "0", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"site": "4", "val": 1}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:54:31.596034+00:00", "site": "6", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"site": "0", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:55:32.601694+00:00", "site": "4", "val": -1, "type": "INF"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:55:36.602246+00:00", "site": "10", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:55:58.604654+00:00", "site": "0", "val": -1, "type": -1}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:56:05.605360+00:00", "site": "9", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:56:57.610989+00:00", "site": "9", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:57:11.613699+00:00", "site": "INF", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:58:19.621717+00:00", "site": "7", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:58:31.623409+00:00", "site": "3", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:58:43.624907+00:00", "site": "3", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T09:58:44.625242+00:00", "site": "10", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T09:58:55.625932+00:00", "val": 3}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"site": "0", "val": 1}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:59:07.626958+00:00", "site": "4", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"site": "5", "val": 1}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T09:59:59.634441+00:00", "site": "7", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:00:01.634844+00:00", "site": "10", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:00:13.635890+00:00", "site": "9", "val": 0}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"site": "2", "val": 4}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:00:31.640769+00:00", "site": "5", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:00:33.641398+00:00", "site": "1", "val": -1, "type": -1}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:01:00.644701+00:00", "site": "4", "val": -3}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:01:19.646765+00:00", "site": "2", "val": -1, "type": "INF"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:01:35.648452+00:00", "site": "4", "val": 9}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"site": "4", "val": 2}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:02:04.652821+00:00", "site": "0", "val": 5}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:02:26.656506+00:00", "val": 2}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:02:59.659565+00:00", "site": "1", "val": "ERR"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:03:43.664003+00:00", "site": "3", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:03:54.665102+00:00", "site": "1", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:05:11.674396+00:00", "site": "6", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:05:39.677846+00:00", "site": "4"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:05:41.678587+00:00", "site": "None", "val": 3}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:05:45.678947+00:00", "site": "0", "val": -1, "type": 4}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:06:00.680331+00:00", "site": "1", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:06:19.681859+00:00", "site": "7", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:06:45.686478+00:00", "site": "4", "val": -1, "type": null}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:06:53.687105+00:00", "site": "1", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:06:58.687810+00:00", "val": 3}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:07:04.688188+00:00", "site": "0", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:07:26.690003+00:00", "site": "4", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:07:34.690693+00:00", "site": "1", "val": "ERR"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:07:46.692277+00:00", "val": 1}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:08:22.695357+00:00", "site": "4", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:08:48.699016+00:00", "site": "6", "val": 3}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:08:52.699843+00:00", "site": "5", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:09:39.706523+00:00", "site": "5", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:10:22.711234+00:00", "site": "5", "val": -3}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:10:32.711928+00:00", "site": "5", "val": 5}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:10:46.713030+00:00", "site": "3", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:10:47.713368+00:00", "site": "11", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:11:28.718146+00:00", "site": "ERR", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:11:49.720127+00:00", "val": 0}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"site": "4", "val": 0}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:12:14.725870+00:00", "val": 2}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:12:18.726183+00:00", "site": "5", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:12:39.727979+00:00", "site": "4", "val": 8}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:12:45.728355+00:00", "site": "2"}
+Issue: Kiosk event missing "val" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:13:12.731127+00:00", "site": "1", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:13:42.734222+00:00", "val": 1}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:13:59.736238+00:00", "site": "None", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:14:16.737464+00:00", "site": "2", "val": -1, "type": 3}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:14:40.740763+00:00", "site": "10", "val": 4}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:15:05.743635+00:00", "site": "10", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:15:39.747015+00:00", "site": "None", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:16:15.750388+00:00", "site": "0", "val": -1, "type": -1}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:16:26.751588+00:00", "site": "5", "val": -1, "type": "ERR"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"site": "3", "val": 1}
+Issue: Kiosk event missing "at" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:17:09.757315+00:00", "site": "INF", "val": 2}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:17:38.761742+00:00", "site": "3", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:17:40.762306+00:00", "val": 4}
+Issue: Kiosk event missing "site" attribute.
+Invalid pulled message:
+	{"at": "2025-03-12T10:17:46.762799+00:00", "site": "4", "val": -1, "type": "INF"}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:17:52.763582+00:00", "site": "4", "val": "INF"}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:18:05.764997+00:00", "site": "4", "val": -1, "type": 2}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:18:49.769689+00:00", "site": "5", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:18:53.770704+00:00", "site": "5", "val": -1, "type": 4}
+Issue: Kiosk event has an invalid request value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:19:41.776286+00:00", "site": "3", "val": -2}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:20:32.781976+00:00", "site": "7", "val": 1}
+Issue: Kiosk event has invalid exhibition id.
+Invalid pulled message:
+	{"at": "2025-03-12T10:21:00.785580+00:00", "site": "2", "val": 5}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:21:06.786604+00:00", "site": "4", "val": 9}
+Issue: Kiosk event has an invalid rating value.
+Invalid pulled message:
+	{"at": "2025-03-12T10:21:10.786945+00:00", "site": "2", "val": 5}
+Issue: Kiosk event has an invalid rating value.

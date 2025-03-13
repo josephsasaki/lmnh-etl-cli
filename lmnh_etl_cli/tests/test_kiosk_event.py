@@ -3,7 +3,7 @@
 import pytest
 from datetime import datetime
 
-from models.kiosk_event import KioskEvent
+from lmnh_etl_cli.models.kiosk_event import KioskEvent
 
 
 def test_kiosk_event_init():
