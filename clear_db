@@ -1,0 +1,10 @@
+source ../.env
+
+INTERACTION_TABLES=("rating_interaction" "request_interaction")
+
+for table in "${INTERACTION_TABLES[@]}"; do
+  echo "Truncating table: $table"
+  PGPASSWORD=${DATABASE_PASSWORD} psql -h ${DATABASE_IP} -p ${DATABASE_PORT} -U ${DATABASE_USERNAME} ${DATABASE_NAME} -c "TRUNCATE TABLE $table RESTART IDENTITY CASCADE;"
+done
+
+echo "Database reset complete."
