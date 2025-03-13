@@ -1,7 +1,7 @@
 '''Module from which entire pipeline is run'''
 
 from argparse import ArgumentParser
-from models.pipeline import Pipeline
+from lmnh_etl_cli.models.pipeline import Pipeline
 
 
 def get_args():
